@@ -1,0 +1,19 @@
+hr {
+    margin:40px 0;
+}
+h3 { color:#1758AA}
+h3 span {font-size:14px; display:block;}
+span[ng-click] {
+    cursor: pointer;
+}
+.like{
+	border: 1px solid #d8d8d8;
+	border-right: none;
+}
+.apagado{
+	fill: #999;
+}
+
+.encendido{
+	fill: #2ba6cb;
+}

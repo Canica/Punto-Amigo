@@ -1,0 +1,350 @@
+@import 'nib/vendor'
+
+vendor-prefixes = o ms moz webkit official
+
+header
+	position fixed
+	width 100%
+	background #fff
+	border-bottom 1px solid #ddd
+	z-index 9
+	.summary
+		padding 8px 15px
+		background #eee
+		a
+			font-size 12px
+			color #000
+		.reclamar
+			margin-bottom 0
+	.catFilter
+		padding-top 8px
+		button
+			margin-bottom 0px
+	.logo
+		a
+			display block
+			padding 13px 20px 0px
+			font-weight bold
+			text-decoration none
+			color #000
+	.userInfo
+		padding-top 5px
+		border-right 1px solid #ddd
+		.button
+			margin-bottom 0px
+			background none
+			padding 0px
+			color #000
+			padding-right 1.5rem !important
+			.Avatar
+				width 40px
+				height 40px
+				background-position center center
+				border-radius 50%
+				background-size 100% auto
+			.userData
+				font-size 12px
+				margin 0px 10px
+				padding-top 5px
+			span
+				&:after
+					  border-color #2ba6cb transparent transparent transparent
+
+.wishlist
+	.wishlistinner
+		position fixed		
+
+footer
+	.logo
+		display table
+		margin auto
+		a
+			display block
+			padding 13px 20px 0px
+			font-weight bold
+			text-decoration none
+			color #000
+	.sub-nav
+		display table
+		margin 15px auto 40px
+
+.contenido
+	padding-top 60px
+	.categoria
+		.producto
+			font-size 13px
+			margin-bottom 15px
+			h3
+				margin 0px 0px 5px
+				height 40px
+				text-align center
+				font-size 16px
+				a
+					font-size 13px
+					display block
+					text-align center
+					text-decoration none
+					line-height 16px
+					color #000
+			.img_product
+				width 100%
+				img 
+					width 100%
+					border 1px solid #ddd
+					border-bottom none
+			.rate
+				font-size 11px
+			.costo
+				text-align center
+			.anadir
+				margin-bottom 0px
+				padding 8px
+			.CartTools
+				select
+					margin-bottom 0px
+			.contElim
+				height 30px
+				width 100%
+				float left
+				.eliminarProd
+					display block
+					float left
+					width 100%
+					text-align center
+					a
+						margin-top 3px
+						display block
+			.panel
+				margin-bottom 0px
+				border-bottom none
+			.description
+				position absolute
+				top 0
+				width 85%
+				height 75%
+				overflow hidden
+				.texto				
+					padding 10px
+					text-align center
+					font-size 11px
+					background rgba(0, 0, 0, .55)
+					color #fff
+					width 100%
+					margin-left -100%
+					transition margin 0.5s
+			&:hover
+				.description
+					.texto
+						margin-left 0				
+	.fildComentario
+		margin-top 20px
+		max-height 100px
+	.comentariosBottom
+		.normal
+			svg
+				fill #0083C0 !important
+				cursor none
+		.highlight
+			svg
+				fill #D1D2D4 !important
+				cursor none
+	.comentarios
+		h3
+			color #000
+			font-size 18px
+			border-bottom 1px solid #ddd
+		.comentario
+			border-bottom 1px solid #ddd
+			padding-bottom 5px
+			margin-top 10px
+			.userDataComent
+				font-size 14px
+	.productTools
+		.anadir
+			width 100% !important
+	.infoTools
+		padding-left 20px
+		.costo
+			margin-bottom 10px
+
+.glyphicon
+	  position: relative
+	  top: 1px;
+	  display: inline-block;
+	  font-style: normal;
+	  font-weight: 400;
+	  line-height: 1;
+
+.glyphicon-plus
+	&:before
+		content '+'
+		
+.glyphicon-minus
+	&:before
+		content '-'
+
+.glyphicon-remove
+	&:before
+		content 'X'
+		font-weight bold
+		color red
+		font-size 30px
+		text-align center
+
+.table-cart
+	img
+		max-width 100px
+	.removeX, .imgTable
+		text-align center
+
+.contCheckout
+	text-align center
+
+.alert-warning
+	text-align center
+	margin 10px 0px
+	color red
+	font-weight bold
+	
+.pagination
+	display table !important
+	margin 0 auto 20px !important
+	
+.search
+	margin-left 10px
+	input
+		max-height 33px
+		margin-bottom 0px !important
+
+.search_input
+	//width 90% !important
+
+.search_points_input
+	width 50% !important
+
+.search_button
+	margin-left 15px
+
+.estrellita
+	&:after
+		content 'Recomendados'
+	
+.lupita
+	&:after
+		content 'Buscador'
+
+.boton_icon
+	&:after
+		transition all 1s
+		opacity 0
+		font-size 0
+		left -100px
+		position relative
+	&:hover
+		&:after
+			width 100px
+			left 0
+			opacity 1
+			font-size 18px
+
+.losMasVotados
+	h4
+		text-align center
+
+.imprimir
+	margin auto !important
+	display table !important
+
+.comprobante
+	h1
+		text-align center
+
+.porpuntos
+	display block
+	
+.wish_icon
+		display none
+
+@media (max-width: 1060px)
+	.userData
+		.name, .userPoints
+			display none !important
+
+		
+@media (max-width: 1024px)
+	.wish_icon
+		display initial
+	.boton_icon
+		&:after
+			display none
+
+@media (max-width: 640px)
+	.summary
+		bottom 0px
+		position fixed
+		width 100%
+		padding 0px  !important
+		a
+			width 100% !important
+			display block !important
+	.catFilter
+		.dropdown
+			padding 10px !important
+			&:after
+				display none !important
+	.boton_icon
+		&:after
+			display none
+	.ng-binding
+		font-size 16px
+		font-weight bold
+		.porpuntos		
+			display initial
+			font-size 11px
+			font-weight normal
+	header
+		.logo
+			a
+				padding 14px 8px 0px 8px
+				font-size 13px
+	.wish_icon
+		display initial
+	.sortUl
+		display table
+		margin auto !important
+		float none !important
+	.productInfo
+		h1
+			text-align center
+		.costo
+			text-align center
+			margin-top 20px
+		.description
+			text-align justify
+		select
+			margin-bottom 0px
+	.like
+		border-right 1px solid #d8d8d8 !important
+	.prod_mc
+		h4
+			border-top 1px solid #d8d8d8
+			padding-top 10px
+			font-size 24px !important
+				
+
+@media (max-width: 348px)
+	.catFilter
+		width 70% !important
+	header
+		.logo
+			width 100%;
+			text-align center
+	.ng-binding
+		.porpuntos	
+			display block
+	.contenido
+		padding-top 95px
+	header
+		.logo
+			a
+				font-size 18px

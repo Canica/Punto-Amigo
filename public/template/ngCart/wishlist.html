@@ -1,0 +1,8 @@
+<h4>Lista de deseos</h4>
+<ul>
+	<li ng-repeat="item in ngCart.getCart().wishItems track by $index">
+		{{id = item.getId();""}}
+		<a href="http://localhost/andalucia/public/producto/{{id}}">{{ item.getName() }}</a>
+		<a ng-click="ngCart.removeWishItemById(id)" style="cursor: pointer;">X</a>
+	</li>
+</ul>

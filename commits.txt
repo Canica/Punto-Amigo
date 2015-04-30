@@ -1,0 +1,237 @@
+commit 2748a10a9cfe4bcf6e40fe19450451471da07dd1
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Tue Apr 28 16:53:14 2015 -0500
+
+    gestor de archivos planos, inicial
+
+commit 29a6aeea893b0ddfd2fe238fff9c108752445894
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Mon Apr 27 16:44:43 2015 -0500
+
+    block user
+
+commit 5ef8448e0415a5d8459242fd89071f82c6cb57b9
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Thu Apr 9 08:05:36 2015 -0500
+
+    Mis pedidos con id de user unico
+    
+    Mis pedidos con id de user unico
+
+commit fb7bed6ac936f3d7890bbe326fa2dcb39f568090
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Wed Apr 8 15:59:36 2015 -0500
+
+    buscador, responsive y estilos
+    
+    buscador, responsive y estilos
+
+commit d910bad831c99c6f8b77ca66c812bc9df63293e0
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Tue Apr 7 17:04:43 2015 -0500
+
+    recomendados y buscador
+    
+    Buscador no sirve aun
+
+commit 08b8d82e86a8121b530e51b21ba1052afa0b8eaf
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Sun Apr 5 22:00:04 2015 -0500
+
+    Integración Log in
+    
+    Integración Log in
+
+commit 540246964d418d74be0b28f3a992dc7c569977b5
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Mon Mar 30 16:52:22 2015 -0500
+
+    Mis pedidos, Ordenar por, Stock control
+    
+    Mis pedidos, Ordenar por, Stock control
+
+commit 62ec0d21a00a6d5b1cc5f0314ed365b05a1bbf0e
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Fri Mar 27 17:02:06 2015 -0500
+
+    Arreglos
+    
+    infinite scroll loading, no se borra wishlist
+
+commit 9d10cd738281ea2a8f6f5fed02352ca673d790b8
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Thu Mar 26 16:52:16 2015 -0500
+
+    Checkout, más canjeados, pdf y codigo de barras
+    
+    Checkout, más canjeados, pdf y codigo de barras
+
+commit e58187ad2f345e483e7c39ef690ca2521a74f12b
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Thu Mar 26 00:00:46 2015 -0500
+
+    quantity control
+    
+    quantity control
+
+commit c3b1406f22b4c93f37413c380d42b4838ed24e00
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Wed Mar 25 16:26:17 2015 -0500
+
+    wish list !!!!
+    
+    wish list !!!!
+
+commit f39bbbcaa54cb0e5177657be4930d2339aa27996
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Tue Mar 24 21:58:34 2015 -0500
+
+    Infinite scroll !!!!!!
+    
+    Por fin
+
+commit a00c095d517aca4954cfbd29a938551e101f757f
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Tue Mar 24 17:21:44 2015 -0500
+
+    layout
+    
+    scripts
+
+commit 2c02c77d74728277d534786fb9d48b2df57a8ea6
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Tue Mar 24 17:16:47 2015 -0500
+
+    infinite scrooll
+    
+    NO funciona aún... con angular
+
+commit a07bc89336b688dc2b876e9b556aa620de66e622
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Tue Mar 24 00:03:26 2015 -0500
+
+    infinite scroll
+    
+    en procesos
+
+commit bf24331a4ffe380f9a311e775268579eb8645296
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Mon Mar 23 12:24:33 2015 -0500
+
+    initial commit
+
+commit 0c47cc778039b8fdeaf031e80be2b6aec76f740c
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Fri Mar 20 16:46:26 2015 -0500
+
+    arreglo search pequeño
+    
+    arreglo search pequeño
+
+commit e691ba792325b6b13dad2ae46195c6d1da69d9e6
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Fri Mar 20 00:48:30 2015 -0500
+
+    estilos comprobante 1
+    
+    estilos comprobante 1
+
+commit b104a6884e6eb7c30ab1b9009f455d19306cfc7c
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Thu Mar 19 22:56:18 2015 -0500
+
+    los más votados y footer
+    
+    los más votados y footer
+
+commit 43584ef001f2f7e999c20cfb14d63ba383d5eab0
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Thu Mar 19 17:09:41 2015 -0500
+
+    pagination
+    
+    infinite scroll tiene problemas aun
+
+commit e972f6404836bf2538dc89bdf53707f09337140d
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Wed Mar 18 23:46:39 2015 -0500
+
+    estilos productos y card
+    
+    estilos productos y card
+
+commit ae9d7934bcb14366db8e02b60138e2ec90716ef0
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Wed Mar 18 16:56:55 2015 -0500
+
+    rate y comentarios con angular
+    
+    rate y comentarios con angular
+
+commit ac0356f713547155ae477f9bdc04f166b5668574
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Tue Mar 17 22:55:27 2015 -0500
+
+    fundation
+
+commit a17bb0c7dbfd0d32adff076fb976c1ab6968ce6f
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Tue Mar 17 15:16:16 2015 -0500
+
+    Comentarios, rate y fotos angularjs
+    
+    Comentarios, rate y fotos angularjs
+
+commit 3f91643a3161620e5ce84e0bd5e666dc9c50136f
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Mon Mar 16 21:06:31 2015 -0500
+
+    Checkout
+    
+    Checkout listo... falta pasar variables de foto por producto e imprimir
+    los items en el check out de un modo decente.
+
+commit 280f0b1759ff1aad1f0d3801555f73001f3cff41
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Mon Mar 16 17:11:08 2015 -0500
+
+    registro de compras
+    
+    falta guardar los ids de productos en una sola columna
+
+commit 1ef68ba6f49c4b0bbe3cc59f04a507589b242aec
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Sun Mar 15 23:13:52 2015 -0500
+
+    move js
+
+commit 56229afb9ad4baa8db9ba4e678334b41e5bbaa2c
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Sun Mar 15 23:12:25 2015 -0500
+
+    Carrito de compras
+    
+    Pendiente checkout y search imput
+
+commit 02a1f319845e464065f6dc21264142802396f3c0
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Fri Mar 13 16:05:19 2015 -0500
+
+    angular cart
+    
+    integracion con angular js
+
+commit 1e5527281b7255f688fc8032a64daaa1f61fb435
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Fri Mar 13 14:36:32 2015 -0500
+
+    Andalucia 1.0.0
+    
+    E-comerce puntos.
+    bases productos y categorias lisas
+
+commit 0786169047ebfa4095024f03c14c9b43086b2944
+Author: nicolasvelah <nicolasvelah@gmail.com>
+Date:   Fri Mar 13 14:35:41 2015 -0500
+
+    :neckbeard: Added .gitattributes

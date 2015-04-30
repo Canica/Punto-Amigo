@@ -1,0 +1,34 @@
+<div ng-hide="attrs.id">
+    <a class="button expand" ng-disabled="true" ng-transclude></a>
+</div>
+<div ng-show="attrs.id">
+    <div class="CartTools">
+        <div class="left small-12 medium-3 large-3 cantPre">
+            {{getWishHeardsById(id);""}}
+            <a ng-click="getWishHeardsById(id); ngCart.addWishItem(id, name, price, q, data, userpoints, img, stock);"  class="prefix like apagado" ng-if="valor == true" >
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+                <path d="M11.8 1c-1.682 0-3.129 1.368-3.799 2.797-0.671-1.429-2.118-2.797-3.8-2.797-2.318 0-4.2 1.882-4.2 4.2 0 4.716 4.758 5.953 8 10.616 3.065-4.634 8-6.050 8-10.616 0-2.319-1.882-4.2-4.2-4.2z"></path>
+                </svg>
+            </a>
+            <a ng-click="getWishHeardsById(id); ngCart.addWishItem(id, name, price, q, data, userpoints, img, stock); " class="prefix like encendido"  ng-if="valor == false">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+                <path d="M11.8 1c-1.682 0-3.129 1.368-3.799 2.797-0.671-1.429-2.118-2.797-3.8-2.797-2.318 0-4.2 1.882-4.2 4.2 0 4.716 4.758 5.953 8 10.616 3.065-4.634 8-6.050 8-10.616 0-2.319-1.882-4.2-4.2-4.2z"></path>
+                </svg>
+            </a>
+        </div>
+
+        <span ng-show="quantityMax" class="left small-12 medium-4 large-4">
+            <select name="quantity" id="quantity" ng-model="q" ng-options=" v for v in qtyOpt">
+            </select>
+        </span>
+        
+        <a class="anadir button tiny left small-12 medium-5 large-5"
+           ng-click="ngCart.addItem(id, name, price, q, data, userpoints, img, stock, userstate)"
+           ng-transclude></a>
+    </div>
+    <div class="contElim">
+        <mark class="eliminarProd"  ng-show="inCart()">
+            <a ng-click="ngCart.removeItemById(id)" style="cursor: pointer;">Eliminar artículo</a>
+        </mark>
+    </div>
+</div>
